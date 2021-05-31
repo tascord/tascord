@@ -1,8 +1,8 @@
-# Systems Engineering -- Design Brief
+# Systems Engineering &mdash; Design Brief
 ---
 
 ### Project name
-Magnetic stripe authenticated door lock.
+Authenticated Door locking
 
 ### Project description
 The basic idea of the project is to have some form of door lock, which allows access to authorized peoples through the use of a magnetic stripe on a card, rfid or knowlege of a code, use a keypad to disengage the systems lock temporarily, restricting access to sensitive areas.
@@ -15,12 +15,18 @@ From a look at the current widely used electronic doorlocks, all of them are int
 #### Option One
 A traditional door lock, which engages, via the use of a lug propelled by solenoid, with a depression in the corresponding door frame. When a user with valid authorization interacts with a keypad, the 
 
+Solenoid powered lug: 
+![Solenoid powered lug](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51uEeBSnIjL._SL1100_.jpg&f=1&nofb=1)
+
 
 #### Option two
 A protrusion mounted to the door, which engages with an external housing for the lug on the exterior of the door frame. A user with valid authorization can, through the use of a keypad, retract the lug temporarily, allowing entry and exit.
 
 #### Option three
 Using a set of electromagnets, a door is kept locked due to the magnetic interaction between a piece mounted on the door, and an externally mounted 'locking piece'. A user with valid authorization can temporarily unpower these electromagnets, allowing the door to be opened.
+
+Electromagnet system in use:
+![Electromagnet lock](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Funionalarm.com%2Fwp-content%2Fuploads%2F2020%2F03%2F71Src8yDSCL._SL1181_.jpg&f=1&nofb=1)
 
 
 ### Chosen Option: One &mdash; Expansion
