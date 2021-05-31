@@ -35,7 +35,9 @@ Door lock keypad example:
 ![Door Lock Keypad](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsc01.alicdn.com%2Fkf%2FHTB1U4jSeL2H8KJjy0Fcq6yDlFXa9%2F226935457%2FHTB1U4jSeL2H8KJjy0Fcq6yDlFXa9.jpg&f=1&nofb=1)
 
 ### Circuit Model
-The circuit model, shown below, is a mock model of the final circuit. The sideswitch is a stand-in for the authentication logic, which will be handled by the arduino, in conjunction with the afformentioned authentication methods, in the completed build.
+The circuit model, shown below, is a mock model of the final circuit. The sideswitch is a stand-in for the authentication logic, which will be handled by the arduino, in conjunction with the afformentioned authentication methods, in the completed build. [Download the circuit](https://github.com/tascord/tascord/blob/2d4d4311ed23e16ca0caac6c0800233051c3176f/Door%20Lock%20Mechanism.brd)
+
+
 ![Interactive Circuit Model](https://i.imgur.com/BcvoUkX.png)
 
 ### Evaluation criteria
