@@ -7,6 +7,9 @@ Authenticated Door locking
 ### Project description
 The basic idea of the project is to have some form of door lock, which allows access to authorized peoples through the use of a magnetic stripe on a card, rfid or knowlege of a code, use a keypad to disengage the systems lock temporarily, restricting access to sensitive areas.
 
+### Project target audience / application
+The primary application of this device is in home and enterprise security.
+
 ### Preliminary research
 From a look at the current widely used electronic doorlocks, all of them are integrated systems, having a solenoid or gear driven lock slug engaging with a depression in the door frame. These systems, which replace the typical passage set, often have keypads, key holes or card readers attached to the handle of the door. This allows for ease of interactivity as your hand is already positioned nearby. In some systems, a seperately mounted RFID card reader is used, allowing users to authorize themselves and then, once the door unlocks, get to where they need to be.
 
@@ -35,10 +38,14 @@ Door lock keypad example:
 ![Door Lock Keypad](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsc01.alicdn.com%2Fkf%2FHTB1U4jSeL2H8KJjy0Fcq6yDlFXa9%2F226935457%2FHTB1U4jSeL2H8KJjy0Fcq6yDlFXa9.jpg&f=1&nofb=1)
 
 ### Circuit Model
-The circuit model, shown below, is a mock model of the final circuit. The sideswitch is a stand-in for the authentication logic, which will be handled by the arduino, in conjunction with the afformentioned authentication methods, in the completed build. [Download the circuit](https://github.com/tascord/tascord/blob/2d4d4311ed23e16ca0caac6c0800233051c3176f/Door%20Lock%20Mechanism.brd)
+The circuit model, shown below, is a mock model of the final circuit. The sideswitch is a stand-in for the authentication logic, which will be handled by the arduino, in conjunction with the afformentioned authentication methods, in the completed build. The servo is a stand-in for the solenoid as tinkercad doesn't have a solenoid object. The circuit diagram is also missing a user notification system, be that an LED or beeper to indicate status, which will be present in the final build. [Download the circuit](https://github.com/tascord/tascord/blob/2d4d4311ed23e16ca0caac6c0800233051c3176f/Door%20Lock%20Mechanism.brd)
 
 
 ![Interactive Circuit Model](https://i.imgur.com/BcvoUkX.png)
+
+### Control Diagram
+The control diagram, shown below, details the steps, subsystems and decisions made by the system.
+![Control Diagram](https://github.com/tascord/tascord/blob/master/Untitled%20Workspace.png?raw=true)
 
 ### Evaluation criteria
 * Size: The keypad is to fit within a 9cm x 7.5cm x 5cm casing
