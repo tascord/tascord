@@ -28,16 +28,21 @@ Using a set of electromagnets, a door is kept locked due to the magnetic interac
 Electromagnet system in use:
 ![Electromagnet lock](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Funionalarm.com%2Fwp-content%2Fuploads%2F2020%2F03%2F71Src8yDSCL._SL1181_.jpg&f=1&nofb=1)
 
-
 ### Chosen Option: One &mdash; Expansion
-The door lock will be much like a traditional door lock, using a lug to engage with a resessed portion in the door. This lug will be propelled via a solenoid untill authorization is given. Authorization will be handled via an arduino in a keypad mounted to the exterior of the door. This keypad will accept a changeable code and a set of RFID cards, programmable by the device, alongside a master RFID key. The system will be battery operated for convenience, although whilst testing the device un-mounted and in a full scale deployment of this device, were it to be adapted to market, would be powered by mains power. The design will fit any door size as long as it uses a traditional passage set size.
+The door lock will be much like a traditional door lock, using a lug to engage with a resessed portion in the door. This lug will be propelled via a solenoid untill authorization is given. Authorization will be handled via an arduino in a keypad mounted to the exterior of the door. This keypad will accept a changeable code, magstrip card, and a set of RFID cards, programmable by the device, alongside a master RFID key. The system will be battery operated for convenience, although whilst testing the device un-mounted and in a full scale deployment of this device, were it to be adapted to market, would be powered by mains power. The design will fit any door size as long as it uses a traditional passage set size.
+
+Door lock keypad example:
+![Door Lock Keypad](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsc01.alicdn.com%2Fkf%2FHTB1U4jSeL2H8KJjy0Fcq6yDlFXa9%2F226935457%2FHTB1U4jSeL2H8KJjy0Fcq6yDlFXa9.jpg&f=1&nofb=1)
+
+### Circuit Model
+The circuit model, shown below, is a mock model of the final circuit. The sideswitch is a stand-in for the authentication logic, which will be handled by the arduino, in conjunction with the afformentioned authentication methods, in the completed build.
+![Interactive Circuit Model](https://i.imgur.com/BcvoUkX.png)
 
 ### Evaluation criteria
 * Size: The keypad is to fit within a 9cm x 7.5cm x 5cm casing
 * Timing: The door is to unlock in less than two seconds
 * UX: Users must be able to determine easily when their card is accepted / declined
 * UX: The device must last serveral days on a single charge
-
 
 ### Timeline
 | Term One                             | Term Two                            | Term Three (Constant) |
