@@ -21,7 +21,7 @@ function generate() {
     // Set Text
     document.querySelector('.text>h2').innerText = profile_data.title;
     document.querySelector('.text>h3').innerText = profile_data.subtitle;
-    document.querySelector('.bio>p').innerText = profile_data.bio;
+    document.querySelector('.bio>p').innerHTML = profile_data.bio;
     document.querySelector('.pronouns>p').innerText = profile_data.pronouns;
     document.querySelector('.interests>p').innerText = profile_data.interests;
 
