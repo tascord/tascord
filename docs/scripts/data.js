@@ -1,7 +1,7 @@
 const profile_data = {
     "title": "tascord",
     "subtitle": "programmer • video game enthusiast • woeful humor enjoyer",
-    "bio": "I do nothing but sit around making woefully written but good looking things in questionable programming languages. <br>• <a href=\"https://open.spotify.com/playlist/24DrVQIgJ6s4D8Ai4m1DXe?si=9cb882126a4e42e1\">Sleepy playlist</a>",
+    "bio": "I do nothing but sit around making woefully written but good looking things in questionable programming languages. <br>• <a href=\"https://open.spotify.com/playlist/24DrVQIgJ6s4D8Ai4m1DXe?si=9cb882126a4e42e1\">Sleepy Playlist</a> <br>• <a href=\"https://chrome.google.com/webstore/detail/hexabegon/ggckfahiiecgojmdonajojnlnpanljgh\">Twitter NFT Chrome Extention</a>",
     "pronouns": "they/them/theirs/themselves",
     "interests": "programming, music, video games, big words, opulence, tea, energy drinks, pretty things, soft things, warm things",
     "links": {
