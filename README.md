@@ -7,6 +7,4 @@ if you're interested in getting in touch, i'm [free to chat](https://twitter.com
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=tascord" />
-  <img src="https://github-readme-stats.vercel.app/api?username=tascord&count_private=true&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tascord&count_private=true&show_icons=true&theme=tokyonight&layout=compact" />
 </div>
