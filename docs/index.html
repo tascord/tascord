@@ -2,67 +2,28 @@
 <html lang="en">
 
 <head>
-
-    <!-- HTML tags -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- <script src="scripts/customize.js" defer></script> -->
-    <script src="scripts/data.js"></script>
-
-    <!-- Data -->
-    <script src="scripts/vibrant.js"></script>
-    <script src="scripts/profile_parser.js" defer></script>
-
-    <!-- Styling -->
-    <script src="https://kit.fontawesome.com/a5a16c30e5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/main.css">
-
-    <!-- Meta tags -->
-    <meta property="og:title" content="my home." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="[ Website Location ]" />
-    <meta property="og:image" content="[ Avatar Location ]" />
-    <meta property="og:description" content="[ Your Name's ] profile page" />
-    <meta name="theme-color" content="#[ Accent Colour ]">
-
-    <!-- Page title -->
-    <title>my home.</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/search.css">
+    <title>Document</title>
 </head>
 
 <body>
-
-    <div class="card">
-
-        <div class="profile">
-            <div class="image"></div>
-            <div class="text">
-                <h2></h2>
-                <h3 class="subtitle"></h3>
-                <div class="box bio">
-                    <h3>Bio</h3>
-                    <p></p>
-                </div>
-                <div class="box pronouns">
-                    <h3>Pronouns <a href="https://en.pronouns.page/" target="__blank"><i
-                                class="fas fa-info-circle"></i></a></h3>
-                    <p></p>
-                </div>
-                <div class="box interests">
-                    <h3>Interests</h3>
-                    <p></p>
-                </div>
-                <div class="box links">
-                    <h3>Links</h3>
-                    <ul class="links">
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+    <div>
+        <img src="/image 1@2x.png" alt="Pixelated screencap from the movie 'I saw the TV glow'">
+        <p>
+            <strong>Hello, flora</strong><br />
+            It is <span id="timedatectl"></span>. <br />
+            <span style="font-style: italic; opacity: 0.5;" id="quote"></span> <br />
+            <br>
+            <span style="opacity: 0.5;">notion | javascript</span>
+        </p>
     </div>
 
+    <script>
+        document.getElementById("timedatectl").innerText = `${new Date().toLocaleTimeString()}, ${new Date().toLocaleDateString()}`
+        fetch('https://qapi.vercel.app/api/random').then(d => d.json()).then(d => document.getElementById("quote").innerText = d.quote ? `"${d.quote}"` : '');
+    </script>
 </body>
 
 </html>
